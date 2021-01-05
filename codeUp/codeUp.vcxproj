@@ -154,6 +154,9 @@
     <ClCompile Include="1014.c" />
     <ClCompile Include="1015.c" />
     <ClCompile Include="1017.c" />
+    <ClCompile Include="1018.c" />
+    <ClCompile Include="1019.c" />
+    <ClCompile Include="1020.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
