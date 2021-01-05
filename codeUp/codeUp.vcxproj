@@ -86,7 +86,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)_CRT_SECURE_NO_WARNINGS;</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -140,6 +140,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1001.c" />
+    <ClCompile Include="1002.c" />
+    <ClCompile Include="1003.c" />
+    <ClCompile Include="1004.c" />
+    <ClCompile Include="1005.c" />
+    <ClCompile Include="1006.c" />
+    <ClCompile Include="1007.c" />
+    <ClCompile Include="1008.c" />
+    <ClCompile Include="1010.c" />
+    <ClCompile Include="1011.c" />
+    <ClCompile Include="1012.c" />
+    <ClCompile Include="1013.c" />
+    <ClCompile Include="1014.c" />
+    <ClCompile Include="1015.c" />
+    <ClCompile Include="1017.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
